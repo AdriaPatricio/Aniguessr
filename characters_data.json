@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Izuku Midoriya",
+    "series": "My Hero Academia",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": [
+      "U.A. High School",
+      "Class 1-A"
+    ],
+    "quirk": [
+      "One For All",
+      "Fa Jin",
+      "Danger Sense",
+      "Blackwhip",
+      "Smokescreen",
+      "Float",
+      "Gearshift"
+    ],
+    "hair_color": "Dark Green",
+    "eye_color": "Green",
+    "notable_features": [
+      "Freckles",
+      "Fluffy dark-green hair",
+      "Signature red high top boots",
+      "Hero costume (various versions)",
+      "Initially Quirkless"
+    ],
+    "personality_traits": [
+      "Heroic",
+      "Determined",
+      "Analytical",
+      "Observant",
+      "Initially timid",
+      "Brave",
+      "Strong sense of justice"
+    ],
+    "image_url": "",
+    "quote": "My dream is to save people with a smile that never falters!"
+  },
+  {
+    "name": "Katsuki Bakugo",
+    "series": "My Hero Academia",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": [
+      "U.A. High School",
+      "Class 1-A"
+    ],
+    "quirk": [
+      "Explosion"
+    ],
+    "hair_color": "Sandy Blond",
+    "eye_color": "Red",
+    "notable_features": [
+      "Spiky hair",
+      "Grenade-like gauntlets on hero costume",
+      "Aggressive demeanor"
+    ],
+    "personality_traits": [
+      "Aggressive",
+      "Arrogant",
+      "Crude",
+      "Confident",
+      "Determined",
+      "Intelligent",
+      "Prideful"
+    ],
+    "image_url": "",
+    "quote": "I will win... That's what heroes do."
+  },
+  {
+    "name": "Shoto Todoroki",
+    "series": "My Hero Academia",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": [
+      "U.A. High School",
+      "Class 1-A"
+    ],
+    "quirk": [
+      "Half-Cold Half-Hot"
+    ],
+    "hair_color": "White (right side), Crimson Red (left side)",
+    "eye_color": "Gray (right side), Turquoise (left side)",
+    "notable_features": [
+      "Heterochromia (different colored eyes)",
+      "Burn scar on left side of face",
+      "Half-white half-red hair"
+    ],
+    "personality_traits": [
+      "Calm",
+      "Aloof",
+      "Reserved",
+      "Intelligent",
+      "Initially cold",
+      "Becomes more sociable",
+      "Struggles with family past"
+    ],
+    "image_url": "",
+    "quote": "I want to be a hero too. I don't want to be a tool for that bastard."
+  }
+]

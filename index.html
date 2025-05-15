@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaGuessr</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MangaGuessr</h1>
+        <nav>
+            <label for="series-select">Elige una serie:</label>
+            <select id="series-select">
+                <option value="">-- Elige un Manga --</option>
+                <option value="Black Clover">Black Clover</option>
+                <option value="Blue Lock">Blue Lock</option>
+                <option value="Solo Leveling">Solo Leveling</option>
+                <option value="Pick Me Up Gacha">Pick Me Up Gacha</option>
+                <option value="My Hero Academia">My Hero Academia</option>
+            </select>
+        </nav>
+    </header>
+
+    <main id="game-container" style="display: none;">
+        <div id="character-properties">
+            <h2>Propiedades del Personaje</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Valor</th>
+                        <th>Resultado</th> 
+                    </tr>
+                </thead>
+                <tbody id="properties-table-body">
+                    <!-- Las filas de propiedades se generarán aquí -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="guess-section">
+            <input type="text" id="guess-input" placeholder="Adivina el personaje...">
+            <button id="guess-button">Adivinar</button>
+            <div id="suggestions-container"></div>
+        </div>
+
+        <div id="attempts-log">
+            <h3>Intentos:</h3>
+            <ul id="attempts-list">
+                <!-- Los intentos se mostrarán aquí -->
+            </ul>
+        </div>
+        
+        <div id="win-message" style="display: none;">
+            <h2>¡Correcto!</h2>
+            <p>El personaje era: <span id="correct-character-name"></span></p>
+            <img id="correct-character-image" src="" alt="Imagen del Personaje" style="max-width: 200px; display: none;">
+            <button id="play-again-button">Jugar de Nuevo (misma serie)</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MangaGuessr - Inspirado en mangadle.net</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
